@@ -1,0 +1,121 @@
+body {
+    background-color: #212529;
+    color: #fff;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    border-bottom: 4px solid #D3D3D3;
+    background-color: #212529;
+    padding: 2%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ChooseDisaply {
+    display: flex;
+
+}
+
+#lmage{
+    width: 30px;
+    height: 30px;
+}
+#dmage{
+    width: 30px;
+    height: 30px;
+}
+
+#name_field {
+    width: 20%;
+}
+
+/* W3 tryouts */
+
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #about {
+    top: 20px;
+    background-color: #4CAF50;
+  }
+  
+  #blog {
+    top: 80px;
+    background-color: #2196F3;
+  }
+  
+  #projects {
+    top: 140px;
+    background-color: #f44336;
+  }
+  
+  #contact {
+    top: 200px;
+    background-color: #555
+  }
+
+  /* W3 tryout ends */
+
+
+  /* Youtube tests */
+
+#testContain{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+  
+  .box {
+    transition-duration: 0.5s;
+    transition-property: width;
+    width: 20px;
+    
+  }
+  
+  
+  .one {
+    background: #07BEB8;
+    transition-timing-function: ease-in;
+  }
+  
+  .two {
+    background: darkblue;
+    transition-timing-function: ease-in;
+  }
+
+  .three {
+
+    background: red;
+    transition-timing-function: ease-in;
+
+  }
+
+  .four {
+    background: darkgreen;
+    transition-timing-function: ease-in;
+  }
+
+  
+
+  /* Youtube tests ends */
